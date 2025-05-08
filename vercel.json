@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/(.*).gz",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        },
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        }
+      ]
+    }
+  ]
+}
